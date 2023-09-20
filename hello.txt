@@ -1,0 +1,17 @@
+PASOS PARA SUBIR AL REPOSITORIO
+echo "# gitprueba" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/waltersandoval98/gitprueba.git
+git push -u origin main
+
+OR PUSH AN EXISTING REPOSITORY FROM THE COMMAND LINE
+
+git remote add origin https://github.com/waltersandoval98/gitprueba.git
+git branch -M main
+git push -u origin main
+
+
+1# git init
